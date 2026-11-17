@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { MessageCircle, ArrowRight, GraduationCap, Cpu, Network, Building2, MapPin } from 'lucide-react';
+import { MessageCircle, ArrowRight, GraduationCap, MapPin } from 'lucide-react';
 import TiltPhoto from './TiltPhoto';
 
 export default function Hero() {
@@ -68,7 +68,7 @@ export default function Hero() {
             {/* 2. Main Headline - Static, Bold & Clean */}
             <div className="animate-fade-in-up delay-200 w-full mb-3">
               <h1 className="text-3xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight text-slate-900 dark:text-white leading-[1.15]">
-                Hello, I'm <span className="text-blue-600 dark:text-blue-400">Fachrizal</span>
+                Hello, I'm <span className="text-blue-600 dark:text-blue-400">Fachrizal Pambudi Luhur</span>
               </h1>
             </div>
 
@@ -88,23 +88,11 @@ export default function Hero() {
               Mahasiswa D3 Teknologi Informasi Politeknik Negeri Madiun yang berfokus pada titik temu antara <strong className="text-slate-900 dark:text-white font-semibold">perangkat keras (IoT)</strong>, <strong className="text-slate-900 dark:text-white font-semibold">jaringan komputer</strong>, dan <strong className="text-slate-900 dark:text-white font-semibold">sistem web digital</strong> yang berorientasi pada kepraktisan pengguna serta operasional bisnis nyata.
             </p>
 
-            {/* 5. Clean Info Tags with Subtle Pixel Touches */}
+            {/* 5. Clean Info Tags */}
             <div className="animate-fade-in-up delay-400 flex flex-wrap gap-2.5 mb-8">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 shadow-xs">
                 <GraduationCap className="w-3.5 h-3.5 text-blue-600 dark:text-blue-400" />
                 <span>D3 TI - Politeknik Negeri Madiun</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 shadow-xs">
-                <Cpu className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
-                <span>IoT &amp; Embedded (ESP32)</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 shadow-xs">
-                <Network className="w-3.5 h-3.5 text-cyan-600 dark:text-cyan-400" />
-                <span>MikroTik &amp; Fiber Optic</span>
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 shadow-xs">
-                <Building2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
-                <span>Ex-Intern Smart Building Inovasi</span>
               </span>
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-medium bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-300 border border-slate-200/80 dark:border-slate-800 shadow-xs">
                 <MapPin className="w-3.5 h-3.5 text-slate-500" />

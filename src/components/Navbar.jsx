@@ -29,12 +29,12 @@ export default function Navbar({ darkMode, setDarkMode }) {
             {/* Subtle pixel corners */}
             <span className="absolute -top-0.5 -left-0.5 w-1 h-1 bg-blue-400"></span>
             <span className="absolute -bottom-0.5 -right-0.5 w-1 h-1 bg-blue-400"></span>
-            FP
+            FPL
           </div>
           <div>
             <div className="flex items-center gap-1.5">
-              <span className="block font-bold text-slate-900 dark:text-white tracking-tight leading-none text-base">
-                Fachrizal Pambudi
+              <span className="block font-bold text-slate-900 dark:text-white tracking-tight leading-none text-sm sm:text-base">
+                Fachrizal Pambudi Luhur
               </span>
               <span className="font-pixel text-[10px] text-blue-600 dark:text-blue-400 font-semibold px-1 rounded bg-blue-50 dark:bg-blue-950/60 border border-blue-200/60 dark:border-blue-900/60">
                 v2.0
